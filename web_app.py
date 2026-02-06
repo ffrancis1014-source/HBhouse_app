@@ -50,7 +50,7 @@ def main():
             ve_opts = {
                 "1": "ve1", "2": "ve2", "3": "ve3", 
             }
-            sel_ve = st.selectbox("物調版本", options=list(ve_opts.keys()))
+            sel_ve = st.selectbox("開發方式", options=list(ve_opts.keys()))
             community = st.text_input("16. 社區名稱")
             type_opts = {
                 "別墅": "t1", "透天": "t2", "電梯華廈": "t3", 
@@ -247,4 +247,5 @@ def main():
             st.info("請檢查 Word 範本內容是否正確，或確認圖片格式 (jpg/png)。")
 
 if __name__ == "__main__":
+
     main()
