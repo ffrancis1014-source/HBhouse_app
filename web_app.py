@@ -213,9 +213,7 @@ def main():
         st.table(df) # 顯示成靜態表格
 
         # 也可以用 expander 把所有細節藏在裡面，點開才看得到
-        with st.expander("點擊查看完整填寫資料"):
-            st.json(context) # 顯示所有原始資料
-        
+       
         # ==========================================
         
         try:
@@ -249,3 +247,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
